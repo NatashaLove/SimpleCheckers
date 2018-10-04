@@ -1,7 +1,8 @@
 package Checkers;
 
 public class Piece {
-	enum COLOR {RED, BLACK};
+	
+	public static enum COLOR {RED, BLACK};// enum limits options of values
 	
 	private static int totalNumberOfPieces=0;// to initialize pieces
 	private int id;
@@ -20,4 +21,6 @@ public class Piece {
 	public COLOR getColor() {
 		return c;
 	}
+	
+	
 }
